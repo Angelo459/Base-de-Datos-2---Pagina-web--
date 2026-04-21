@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 1 | Base de Datos II</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body { background-color: #020617; color: white; font-family: sans-serif; min-height: 100vh; }
+        .glass-card { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); transition: 0.3s; }
+        .glass-card:hover { border-color: #22d3ee; transform: translateY(-5px); box-shadow: 0 0 20px rgba(34, 211, 238, 0.2); }
+        .cyber-title { background: linear-gradient(90deg, #22d3ee, #3b82f6); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <button onclick="window.close()" class="mb-8 text-cyan-500 hover:text-cyan-300 transition flex items-center gap-2 font-mono text-sm">
+        <span>[ < ]</span> VOLVER AL SISTEMA
+    </button>
+
+    <header class="mb-16" data-aos="fade-down">
+        <h1 class="text-5xl font-black cyber-title uppercase italic">Unidad 1</h1>
+        <p class="text-gray-500 tracking-[0.3em] text-xs mt-2 uppercase">Fundamentos y Arquitectura de Datos</p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        
+        <div class="glass-card p-6 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+    <div class="text-cyan-500 font-mono text-xs mb-4"></div>
+    <h2 class="text-2xl font-bold mb-4 text-white">Semana 1</h2>
+    
+    <div class="relative mb-6 overflow-hidden rounded-xl border border-white/10 group">
+        <img src="vista _previa _Tarea1.png" alt="Vista previa PDF" class="w-full h-40 object-cover opacity-70 group-hover:opacity-100 transition duration-500">
+        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/40">
+             <span class="text-xs font-bold tracking-widest">ARCHIVO_PDF</span>
+        </div>
+    </div>
+
+    <p class="text-gray-400 text-sm mb-6">Introduccion a la arquitectura de B.D</p>
+    
+    <a href="Semana1 _Tarea 1.pdf" target="_blank" class="block w-full text-center bg-cyan-600/20 border border-cyan-500/50 py-2 rounded-lg text-cyan-400 text-xs hover:bg-cyan-500 hover:text-white transition uppercase font-bold">
+        Abrir Documento
+    </a>
+</div>
+
+        <div class="glass-card p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="200">
+            <div class="text-cyan-500 font-mono text-xs mb-4"></div>
+            <h2 class="text-2xl font-bold mb-4 text-white">Semana 2</h2>
+            <p class="text-gray-400 text-sm mb-6">Gestores de B.D</p>
+            <button class="w-full bg-cyan-600/20 border border-cyan-500/50 py-2 rounded-lg text-cyan-400 text-xs hover:bg-cyan-500 hover:text-white transition uppercase font-bold">Ver Material</button>
+        </div>
+
+        <div class="glass-card p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="300">
+            <div class="text-cyan-500 font-mono text-xs mb-4"></div>
+            <h2 class="text-2xl font-bold mb-4 text-white">Semana 3</h2>
+            <p class="text-gray-400 text-sm mb-6">Arquitectura de B.D</p>
+            <button class="w-full bg-cyan-600/20 border border-cyan-500/50 py-2 rounded-lg text-cyan-400 text-xs hover:bg-cyan-500 hover:text-white transition uppercase font-bold">Ver Material</button>
+        </div>
+
+        <div class="glass-card p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="400">
+            <div class="text-cyan-500 font-mono text-xs mb-4"></div>
+            <h2 class="text-2xl font-bold mb-4 text-white">Semana 4</h2>
+            <p class="text-gray-400 text-sm mb-6">Diseño de la arqitectura de B.D</p>
+            <button class="w-full bg-cyan-600/20 border border-cyan-500/50 py-2 rounded-lg text-cyan-400 text-xs hover:bg-cyan-500 hover:text-white transition uppercase font-bold">Ver Material</button>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
